@@ -1,0 +1,129 @@
+\hypertarget{class_enemy}{\section{Enemy Class Reference}
+\label{class_enemy}\index{Enemy@{Enemy}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_enemy_a2d1b1a14c8df3df8b230c1ae38e1e193}{Enemy} (ngl\-::\-Vec3 \-\_\-pos, std\-::string \-\_\-fname)
+\begin{DoxyCompactList}\small\item\em ctor \end{DoxyCompactList}\item 
+void \hyperlink{class_enemy_ae7e82c8a3afd8b39ab3947fa1ece3394}{draw} (const std\-::string \&\-\_\-shader, ngl\-::\-Camera $\ast$\-\_\-cam)
+\begin{DoxyCompactList}\small\item\em draw method \end{DoxyCompactList}\item 
+void \hyperlink{class_enemy_a1a3c17dff184c23dfcc1f4ec499f7b36}{move\-Enemy} (ngl\-::\-Vec3 spos)
+\begin{DoxyCompactList}\small\item\em movement method \end{DoxyCompactList}\item 
+int \hyperlink{class_enemy_ab572397c421fd9dda7491360d53741ca}{attack} (ngl\-::\-Vec3 spos, int rot)
+\begin{DoxyCompactList}\small\item\em enemy being attacked method \end{DoxyCompactList}\item 
+int \hyperlink{class_enemy_a83b9d3f2d42c6abc0a9759fb59cd93b5}{knockback\-Player} (ngl\-::\-Vec3 spos)
+\begin{DoxyCompactList}\small\item\em method to work out player/enemy collision and knockback \end{DoxyCompactList}\item 
+\hypertarget{class_enemy_a533fe9819e7a304caaa51938590a49ff}{void \hyperlink{class_enemy_a533fe9819e7a304caaa51938590a49ff}{enemy\-Collisions} ()}\label{class_enemy_a533fe9819e7a304caaa51938590a49ff}
+
+\begin{DoxyCompactList}\small\item\em enemy collision method \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_enemy_ad20c260afb7bb563f05c9c86b451d058}{std\-::vector$<$ \hyperlink{structenemies}{enemies} $>$ \hyperlink{class_enemy_ad20c260afb7bb563f05c9c86b451d058}{m\-\_\-enemies}}\label{class_enemy_ad20c260afb7bb563f05c9c86b451d058}
+
+\begin{DoxyCompactList}\small\item\em vector of enemy structs \end{DoxyCompactList}\item 
+\hypertarget{class_enemy_a98766d083fc49e746a37d0dc69be09e0}{float \hyperlink{class_enemy_a98766d083fc49e746a37d0dc69be09e0}{speed} = 0.\-1}\label{class_enemy_a98766d083fc49e746a37d0dc69be09e0}
+
+\begin{DoxyCompactList}\small\item\em movement speed variable \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_enemy_a2d1b1a14c8df3df8b230c1ae38e1e193}{\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\subsubsection[{Enemy}]{\setlength{\rightskip}{0pt plus 5cm}Enemy\-::\-Enemy (
+\begin{DoxyParamCaption}
+\item[{ngl\-::\-Vec3}]{\-\_\-pos, }
+\item[{std\-::string}]{\-\_\-fname}
+\end{DoxyParamCaption}
+)}}\label{class_enemy_a2d1b1a14c8df3df8b230c1ae38e1e193}
+
+
+ctor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \-\_\-pos} & the initial position \\
+\hline
+{\em \-\_\-fname} & the name of mesh to load \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_enemy_ab572397c421fd9dda7491360d53741ca}{\index{Enemy@{Enemy}!attack@{attack}}
+\index{attack@{attack}!Enemy@{Enemy}}
+\subsubsection[{attack}]{\setlength{\rightskip}{0pt plus 5cm}int Enemy\-::attack (
+\begin{DoxyParamCaption}
+\item[{ngl\-::\-Vec3}]{spos, }
+\item[{int}]{rot}
+\end{DoxyParamCaption}
+)}}\label{class_enemy_ab572397c421fd9dda7491360d53741ca}
+
+
+enemy being attacked method 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spos} & player position \\
+\hline
+{\em rot} & player facing direction \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_enemy_ae7e82c8a3afd8b39ab3947fa1ece3394}{\index{Enemy@{Enemy}!draw@{draw}}
+\index{draw@{draw}!Enemy@{Enemy}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void Enemy\-::draw (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{\-\_\-shader, }
+\item[{ngl\-::\-Camera $\ast$}]{\-\_\-cam}
+\end{DoxyParamCaption}
+)}}\label{class_enemy_ae7e82c8a3afd8b39ab3947fa1ece3394}
+
+
+draw method 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \-\_\-shader} & the shader to use \\
+\hline
+{\em \-\_\-cam} & camera data passed on \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_enemy_a83b9d3f2d42c6abc0a9759fb59cd93b5}{\index{Enemy@{Enemy}!knockback\-Player@{knockback\-Player}}
+\index{knockback\-Player@{knockback\-Player}!Enemy@{Enemy}}
+\subsubsection[{knockback\-Player}]{\setlength{\rightskip}{0pt plus 5cm}int Enemy\-::knockback\-Player (
+\begin{DoxyParamCaption}
+\item[{ngl\-::\-Vec3}]{spos}
+\end{DoxyParamCaption}
+)}}\label{class_enemy_a83b9d3f2d42c6abc0a9759fb59cd93b5}
+
+
+method to work out player/enemy collision and knockback 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spos} & player position \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_enemy_a1a3c17dff184c23dfcc1f4ec499f7b36}{\index{Enemy@{Enemy}!move\-Enemy@{move\-Enemy}}
+\index{move\-Enemy@{move\-Enemy}!Enemy@{Enemy}}
+\subsubsection[{move\-Enemy}]{\setlength{\rightskip}{0pt plus 5cm}void Enemy\-::move\-Enemy (
+\begin{DoxyParamCaption}
+\item[{ngl\-::\-Vec3}]{spos}
+\end{DoxyParamCaption}
+)}}\label{class_enemy_a1a3c17dff184c23dfcc1f4ec499f7b36}
+
+
+movement method 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spos} & player's position passed on for chasing \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{_enemy_8h}{Enemy.\-h}\item 
+src/Enemy.\-cpp\end{DoxyCompactItemize}

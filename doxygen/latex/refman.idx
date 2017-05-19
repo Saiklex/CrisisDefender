@@ -1,0 +1,46 @@
+\indexentry{background@{background}|hyperpage}{9}
+\indexentry{background@{background}!background@{background}|hyperpage}{9}
+\indexentry{background@{background}!background@{background}|hyperpage}{9}
+\indexentry{background@{background}!draw@{draw}|hyperpage}{9}
+\indexentry{draw@{draw}!background@{background}|hyperpage}{9}
+\indexentry{enemies@{enemies}|hyperpage}{9}
+\indexentry{Enemy@{Enemy}|hyperpage}{10}
+\indexentry{Enemy@{Enemy}!Enemy@{Enemy}|hyperpage}{10}
+\indexentry{Enemy@{Enemy}!Enemy@{Enemy}|hyperpage}{10}
+\indexentry{Enemy@{Enemy}!attack@{attack}|hyperpage}{11}
+\indexentry{attack@{attack}!Enemy@{Enemy}|hyperpage}{11}
+\indexentry{Enemy@{Enemy}!draw@{draw}|hyperpage}{11}
+\indexentry{draw@{draw}!Enemy@{Enemy}|hyperpage}{11}
+\indexentry{Enemy@{Enemy}!knockback\discretionary {-}{}{}Player@{knockback\discretionary {-}{}{}Player}|hyperpage}{11}
+\indexentry{knockback\discretionary {-}{}{}Player@{knockback\discretionary {-}{}{}Player}!Enemy@{Enemy}|hyperpage}{11}
+\indexentry{Enemy@{Enemy}!move\discretionary {-}{}{}Enemy@{move\discretionary {-}{}{}Enemy}|hyperpage}{11}
+\indexentry{move\discretionary {-}{}{}Enemy@{move\discretionary {-}{}{}Enemy}!Enemy@{Enemy}|hyperpage}{11}
+\indexentry{Heart@{Heart}|hyperpage}{11}
+\indexentry{Heart@{Heart}!Heart@{Heart}|hyperpage}{12}
+\indexentry{Heart@{Heart}!Heart@{Heart}|hyperpage}{12}
+\indexentry{Heart@{Heart}!collide@{collide}|hyperpage}{12}
+\indexentry{collide@{collide}!Heart@{Heart}|hyperpage}{12}
+\indexentry{Heart@{Heart}!draw@{draw}|hyperpage}{12}
+\indexentry{draw@{draw}!Heart@{Heart}|hyperpage}{12}
+\indexentry{N\discretionary {-}{}{}G\discretionary {-}{}{}L\discretionary {-}{}{}Scene@{N\discretionary {-}{}{}G\discretionary {-}{}{}L\discretionary {-}{}{}Scene}|hyperpage}{12}
+\indexentry{Player@{Player}|hyperpage}{13}
+\indexentry{Player@{Player}!Player@{Player}|hyperpage}{13}
+\indexentry{Player@{Player}!Player@{Player}|hyperpage}{13}
+\indexentry{Player@{Player}!draw@{draw}|hyperpage}{14}
+\indexentry{draw@{draw}!Player@{Player}|hyperpage}{14}
+\indexentry{Player@{Player}!move@{move}|hyperpage}{14}
+\indexentry{move@{move}!Player@{Player}|hyperpage}{14}
+\indexentry{Sword@{Sword}|hyperpage}{14}
+\indexentry{Sword@{Sword}!Sword@{Sword}|hyperpage}{14}
+\indexentry{Sword@{Sword}!Sword@{Sword}|hyperpage}{14}
+\indexentry{Sword@{Sword}!draw@{draw}|hyperpage}{15}
+\indexentry{draw@{draw}!Sword@{Sword}|hyperpage}{15}
+\indexentry{Sword@{Sword}!move@{move}|hyperpage}{15}
+\indexentry{move@{move}!Sword@{Sword}|hyperpage}{15}
+\indexentry{Win\discretionary {-}{}{}Params@{Win\discretionary {-}{}{}Params}|hyperpage}{15}
+\indexentry{include/background.\discretionary {-}{}{}h@{include/background.\discretionary {-}{}{}h}|hyperpage}{17}
+\indexentry{include/\discretionary {-}{}{}Enemy.\discretionary {-}{}{}h@{include/\discretionary {-}{}{}Enemy.\discretionary {-}{}{}h}|hyperpage}{17}
+\indexentry{include/\discretionary {-}{}{}Heart.\discretionary {-}{}{}h@{include/\discretionary {-}{}{}Heart.\discretionary {-}{}{}h}|hyperpage}{18}
+\indexentry{include/\discretionary {-}{}{}Player.\discretionary {-}{}{}h@{include/\discretionary {-}{}{}Player.\discretionary {-}{}{}h}|hyperpage}{18}
+\indexentry{include/\discretionary {-}{}{}Sword.\discretionary {-}{}{}h@{include/\discretionary {-}{}{}Sword.\discretionary {-}{}{}h}|hyperpage}{19}
+\indexentry{include/\discretionary {-}{}{}Window\discretionary {-}{}{}Params.\discretionary {-}{}{}h@{include/\discretionary {-}{}{}Window\discretionary {-}{}{}Params.\discretionary {-}{}{}h}|hyperpage}{19}

@@ -28,6 +28,7 @@ DESTDIR=./
 # add the glsl shader files
 OTHER_FILES+= shaders/*.glsl \
               models/*.obj \
+              images/floor.png\
 							README.md
 # were are going to default to a console app
 CONFIG += console

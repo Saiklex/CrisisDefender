@@ -1,0 +1,56 @@
+\contentsline {chapter}{\numberline {1}R\discretionary {-}{}{}E\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}M\discretionary {-}{}{}E}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}
+\contentsline {chapter}{\numberline {5}Class Documentation}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}background Class Reference}{9}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Constructor \& Destructor Documentation}{9}{subsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.1.1}background}{9}{subsubsection.5.1.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Member Function Documentation}{9}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}draw}{9}{subsubsection.5.1.2.1}
+\contentsline {section}{\numberline {5.2}enemies Struct Reference}{9}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{10}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Enemy Class Reference}{10}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Constructor \& Destructor Documentation}{10}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Enemy}{10}{subsubsection.5.3.1.1}
+\contentsline {subsection}{\numberline {5.3.2}Member Function Documentation}{11}{subsection.5.3.2}
+\contentsline {subsubsection}{\numberline {5.3.2.1}attack}{11}{subsubsection.5.3.2.1}
+\contentsline {subsubsection}{\numberline {5.3.2.2}draw}{11}{subsubsection.5.3.2.2}
+\contentsline {subsubsection}{\numberline {5.3.2.3}knockback\discretionary {-}{}{}Player}{11}{subsubsection.5.3.2.3}
+\contentsline {subsubsection}{\numberline {5.3.2.4}move\discretionary {-}{}{}Enemy}{11}{subsubsection.5.3.2.4}
+\contentsline {section}{\numberline {5.4}Heart Class Reference}{11}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Constructor \& Destructor Documentation}{12}{subsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.1.1}Heart}{12}{subsubsection.5.4.1.1}
+\contentsline {subsection}{\numberline {5.4.2}Member Function Documentation}{12}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}collide}{12}{subsubsection.5.4.2.1}
+\contentsline {subsubsection}{\numberline {5.4.2.2}draw}{12}{subsubsection.5.4.2.2}
+\contentsline {section}{\numberline {5.5}N\discretionary {-}{}{}G\discretionary {-}{}{}L\discretionary {-}{}{}Scene Class Reference}{12}{section.5.5}
+\contentsline {section}{\numberline {5.6}Player Class Reference}{13}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Constructor \& Destructor Documentation}{13}{subsection.5.6.1}
+\contentsline {subsubsection}{\numberline {5.6.1.1}Player}{13}{subsubsection.5.6.1.1}
+\contentsline {subsection}{\numberline {5.6.2}Member Function Documentation}{14}{subsection.5.6.2}
+\contentsline {subsubsection}{\numberline {5.6.2.1}draw}{14}{subsubsection.5.6.2.1}
+\contentsline {subsubsection}{\numberline {5.6.2.2}move}{14}{subsubsection.5.6.2.2}
+\contentsline {section}{\numberline {5.7}Sword Class Reference}{14}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Constructor \& Destructor Documentation}{14}{subsection.5.7.1}
+\contentsline {subsubsection}{\numberline {5.7.1.1}Sword}{14}{subsubsection.5.7.1.1}
+\contentsline {subsection}{\numberline {5.7.2}Member Function Documentation}{15}{subsection.5.7.2}
+\contentsline {subsubsection}{\numberline {5.7.2.1}draw}{15}{subsubsection.5.7.2.1}
+\contentsline {subsubsection}{\numberline {5.7.2.2}move}{15}{subsubsection.5.7.2.2}
+\contentsline {section}{\numberline {5.8}Win\discretionary {-}{}{}Params Struct Reference}{15}{section.5.8}
+\contentsline {chapter}{\numberline {6}File Documentation}{17}{chapter.6}
+\contentsline {section}{\numberline {6.1}include/background.h File Reference}{17}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{17}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}include/\discretionary {-}{}{}Enemy.h File Reference}{17}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{18}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}include/\discretionary {-}{}{}Heart.h File Reference}{18}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{18}{subsection.6.3.1}
+\contentsline {section}{\numberline {6.4}include/\discretionary {-}{}{}Player.h File Reference}{18}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{18}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}include/\discretionary {-}{}{}Sword.h File Reference}{19}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{19}{subsection.6.5.1}
+\contentsline {section}{\numberline {6.6}include/\discretionary {-}{}{}Window\discretionary {-}{}{}Params.h File Reference}{19}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{19}{subsection.6.6.1}

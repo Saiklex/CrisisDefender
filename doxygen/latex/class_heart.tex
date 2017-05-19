@@ -1,0 +1,87 @@
+\hypertarget{class_heart}{\section{Heart Class Reference}
+\label{class_heart}\index{Heart@{Heart}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_heart_a10e7414c251624a7394c8e49ff7e6b92}{Heart} (ngl\-::\-Vec3 \-\_\-pos, std\-::string \-\_\-fname)
+\begin{DoxyCompactList}\small\item\em ctor \end{DoxyCompactList}\item 
+void \hyperlink{class_heart_a2a262356476149c5c08cd40cc0d6e762}{draw} (const std\-::string \&\-\_\-shader, ngl\-::\-Camera $\ast$\-\_\-cam)
+\begin{DoxyCompactList}\small\item\em draw method \end{DoxyCompactList}\item 
+bool \hyperlink{class_heart_a609cd2acaccbcd8230e9ce10d2c82ad9}{collide} (ngl\-::\-Vec3 spos)
+\begin{DoxyCompactList}\small\item\em collision method \end{DoxyCompactList}\item 
+\hypertarget{class_heart_a33fcca1d7d422d827924ef052636eb60}{bool \hyperlink{class_heart_a33fcca1d7d422d827924ef052636eb60}{spawn} ()}\label{class_heart_a33fcca1d7d422d827924ef052636eb60}
+
+\begin{DoxyCompactList}\small\item\em method to determine whether it will spawn \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_heart_a5b4ac61c0cceedc82cfc47ba5acbea4c}{ngl\-::\-Vec3 \hyperlink{class_heart_a5b4ac61c0cceedc82cfc47ba5acbea4c}{m\-\_\-pos}}\label{class_heart_a5b4ac61c0cceedc82cfc47ba5acbea4c}
+
+\begin{DoxyCompactList}\small\item\em the position of the heart \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_heart_a10e7414c251624a7394c8e49ff7e6b92}{\index{Heart@{Heart}!Heart@{Heart}}
+\index{Heart@{Heart}!Heart@{Heart}}
+\subsubsection[{Heart}]{\setlength{\rightskip}{0pt plus 5cm}Heart\-::\-Heart (
+\begin{DoxyParamCaption}
+\item[{ngl\-::\-Vec3}]{\-\_\-pos, }
+\item[{std\-::string}]{\-\_\-fname}
+\end{DoxyParamCaption}
+)}}\label{class_heart_a10e7414c251624a7394c8e49ff7e6b92}
+
+
+ctor 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \-\_\-pos} & the initial position \\
+\hline
+{\em \-\_\-fname} & the name of mesh to load \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_heart_a609cd2acaccbcd8230e9ce10d2c82ad9}{\index{Heart@{Heart}!collide@{collide}}
+\index{collide@{collide}!Heart@{Heart}}
+\subsubsection[{collide}]{\setlength{\rightskip}{0pt plus 5cm}bool Heart\-::collide (
+\begin{DoxyParamCaption}
+\item[{ngl\-::\-Vec3}]{spos}
+\end{DoxyParamCaption}
+)}}\label{class_heart_a609cd2acaccbcd8230e9ce10d2c82ad9}
+
+
+collision method 
+
+
+\begin{DoxyParams}{Parameters}
+{\em spos} & player position \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_heart_a2a262356476149c5c08cd40cc0d6e762}{\index{Heart@{Heart}!draw@{draw}}
+\index{draw@{draw}!Heart@{Heart}}
+\subsubsection[{draw}]{\setlength{\rightskip}{0pt plus 5cm}void Heart\-::draw (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{\-\_\-shader, }
+\item[{ngl\-::\-Camera $\ast$}]{\-\_\-cam}
+\end{DoxyParamCaption}
+)}}\label{class_heart_a2a262356476149c5c08cd40cc0d6e762}
+
+
+draw method 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \-\_\-shader} & the shader to use \\
+\hline
+{\em \-\_\-cam} & camera data passed on \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{_heart_8h}{Heart.\-h}\item 
+src/Heart.\-cpp\end{DoxyCompactItemize}
